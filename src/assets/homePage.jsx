@@ -19,7 +19,7 @@ export default function HomePage() {
             className="profile-section-image"
           />
           <h2 className="profile-title">Ayan Ahmad Khan</h2>
-          <p className="profile-desc">Hey there! I'm Ayan Khan,a passionate <span>MERN stack</span> developer.</p>
+          <p className="profile-desc">Hey there! I'm Ayan Ahmad Khan, a passionate <span>MERN stack</span> developer.</p>
         </div>
 
         <h3 className="project-title">Projects</h3>
