@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
+.pageDiv {
+  display: flex;
+  justify-content: center;
+  height: 110vh;
+}
+
+.wrapper {
+  margin-top: 10px;
+}
+
+.backgroundImg {
+  height: 100px;
+  width: 1000px;
+  object-fit: cover;
+}
+
+.profile-section-container {
+  margin: 10px;
+}
+.profile-section-image {
+  width: 75px;
+  border-radius: 50%;
+}
+.profile-title {
+  font-size: 30px; 
+  font-weight: 500;
+  letter-spacing: 0.05em;  
+  margin-top: 0.5rem;
+}
+.profile-desc {
+  font-size: 16px; 
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.profile-desc span {
+  color: yellowgreen;
+}
+
+.project-title {
+  font-size: 40px;  
+  font-weight: 500;
+  margin-top: 1.25rem;
+}
+.grid-item {
+  margin: 4px;
+  padding: 0.5rem 0;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.09);
+  margin-left: -0.5rem; 
+}
+
+.grid-item-wrapper {
+  padding: 1rem 0 1rem 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.grid-item-wrapper span {
+  float: right;
+  padding: 10px;
+  letter-spacing: -1px;
+  color: dodgerblue;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.grid-item-wrapper .dreamwall {
+  color: lightgreen;
+}
+
+.grid-item-wrapper:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.grid-item-title {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-decoration: underline;
+}
+
+.grid-item-desc {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 6px;
+}
+
+.social-container {
+  display: flex;
+  gap: 2rem;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 1rem;
+}
+.social-item {
+  cursor: pointer;
+  font-weight: 400;
+  transition: color 0.3s;
+  color: rgba(255, 255, 255, 0.4);
+}
+.social-item:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
