@@ -18,8 +18,8 @@ export default function HomePage() {
             alt="Profile"
             className="profile-section-image"
           />
-          <h2 className="profile-title">Ayan Khan</h2>
-          <p className="profile-desc">Hey there! I'm Ayan Khan, also known as Devlegend—a passionate <span>MERN stack</span> developer.</p>
+          <h2 className="profile-title">Ayan Ahmad Khan</h2>
+          <p className="profile-desc">Hey there! I'm Ayan Khan,a passionate <span>MERN stack</span> developer.</p>
         </div>
 
         <h3 className="project-title">Projects</h3>
