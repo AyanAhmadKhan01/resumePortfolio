@@ -23,6 +23,7 @@ export default function HomePage() {
         </div>
 
         <h3 className="project-title">Projects</h3>
+        <div className="grid-container">
         <div className="grid-item">
           <a href="https://levelcard.vercel.app" target="_blank" rel="noopener noreferrer">
             <div className="grid-item-wrapper level-card-wrapper">
@@ -110,7 +111,7 @@ export default function HomePage() {
         </div>
       </div>
     </div>
-
+</div>
 
 
 

@@ -16,7 +16,8 @@ body {
 .pageDiv {
   display: flex;
   justify-content: center;
-  height: 410vh;
+  
+  margin: 0px 50px;
 }
 
 .wrapper {
@@ -27,6 +28,8 @@ body {
   height: 100px;
   width: 1000px;
   object-fit: cover;
+  max-width: 100%;
+  display: block;
 }
 
 .profile-section-container {
@@ -63,6 +66,24 @@ body {
   border-bottom: 2px solid rgba(255, 255, 255, 0.09);
   margin-left: -0.5rem; 
 }
+
+@media (max-width: 1000px) {
+ .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 0px 20px;
+}
+}
+
+@media (max-width: 420px) {
+ .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0px 20px;
+}
+}
+
+
 
 .grid-item-wrapper {
   padding: 1rem 0 1rem 0.75rem;
@@ -112,6 +133,7 @@ body {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.6);
   margin-top: 6px;
+  margin-bottom: 10px;
 }
 
 .social-container {
@@ -126,6 +148,7 @@ body {
   font-weight: 400;
   transition: color 0.3s;
   color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 50px;
 }
 .social-item:hover {
   color: rgba(255, 255, 255, 0.9);
@@ -135,8 +158,8 @@ body {
 
 .tags-container {
   display: flex;
-  gap: 10px;
-  margin-top: 10px;
+  flex-wrap: wrap;
+  gap: 0px 10px;
 }
 
 .tags {
@@ -178,4 +201,7 @@ border: 1px solid #13e8b6;
   width: 975px;
   margin-top: 10px;
   border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
