@@ -93,7 +93,7 @@ export default function HomePage() {
               <h5 className="tags todo-tags">#CSS</h5>
               <h5 className="tags todo-tags">#Javascript</h5>
              </div>
-             <img className="project-image" src="https://private-user-images.githubusercontent.com/166162914/348945844-7e250095-1135-48c8-a42e-979920097e20.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDgwMDU4NjMsIm5iZiI6MTc0ODAwNTU2MywicGF0aCI6Ii8xNjYxNjI5MTQvMzQ4OTQ1ODQ0LTdlMjUwMDk1LTExMzUtNDhjOC1hNDJlLTk3OTkyMDA5N2UyMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyM1QxMzA2MDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xOTY2M2UzMjA2YWM1NGNmMDM0YWJhZTA4MDliNjFjYjg2ODVjMTEyODc0YWY0YmYxNDEyMDBmYjFkZDUwNDQzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Hnu_o4m100wTtzoYwrcKP7k-EGiZBcxw-so7Tq7bn78" alt="project" />
+             <img className="project-image" src="https://res.cloudinary.com/dt5qoqw6u/image/upload/v1748009620/nufv16guy3umtgbjr5ed.png" alt="project" />
             </div>
           </a>
         </div>
