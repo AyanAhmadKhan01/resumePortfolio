@@ -45,7 +45,7 @@ export default function HomePage() {
         </div>
         <div className="grid-item">
           <a href="https://dreamwallv2.vercel.app/home" target="_blank" rel="noopener noreferrer">
-            <div className="grid-item-wrapper">
+            <div className="grid-item-wrapper dream-wrapper">
             <span className="dreamwall">Completed</span>
               <h4 className="grid-item-title">DreamWall</h4>
               <p className="grid-item-desc">
@@ -64,7 +64,7 @@ export default function HomePage() {
         </div>
         <div className="grid-item">
           <a href="https://kadogg.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <div className="grid-item-wrapper">
+            <div className="grid-item-wrapper kado-wrapper">
             <span className="dreamwall">Completed</span>
               <h4 className="grid-item-title">Kado.gg</h4>
               <p className="grid-item-desc">
@@ -82,7 +82,7 @@ export default function HomePage() {
         </div>
         <div className="grid-item">
           <a href="https://todolist-brown-pi.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <div className="grid-item-wrapper">
+            <div className="grid-item-wrapper todo-wrapper">
             <span className="dreamwall">Completed</span>
               <h4 className="grid-item-title">To Do List</h4>
               <p className="grid-item-desc">

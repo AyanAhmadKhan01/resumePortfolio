@@ -153,14 +153,23 @@ body {
   color: #147eff;
 }
 
+.dream-wrapper:hover {
+  border: 1px solid #33d864;
+}
 .dream-tags {
   color: #33d864;
+}
+
+.kado-wrapper:hover {
+border: 1px solid #e2223b;
 }
 
 .kado-tag {
   color:  #e2223b;
 }
-
+.todo-wrapper:hover {
+border: 1px solid #13e8b6;
+}
 .todo-tags {
   color: #13e8b6;
 }
