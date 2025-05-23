@@ -16,7 +16,7 @@ body {
 .pageDiv {
   display: flex;
   justify-content: center;
-  height: 110vh;
+  height: 410vh;
 }
 
 .wrapper {
@@ -69,16 +69,18 @@ body {
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 20px;
 }
 
-.grid-item-wrapper span {
+.grid-item-wrapper .dev-tag, .grid-item-wrapper .dreamwall {
   float: right;
   padding: 10px;
   letter-spacing: -1px;
   color: dodgerblue;
   font-weight: 500;
   background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 20px;
+  border-radius: 12px;
   margin-top: 5px;
   margin-right: 5px;
 }
@@ -90,11 +92,20 @@ body {
 .grid-item-wrapper:hover {
   background-color: rgba(255, 255, 255, 0.05);
 }
+
+
+.level-card-wrapper:hover{
+   border: 1px solid dodgerblue;
+}
+
+.lvl-span {
+  color: #147eff;
+}
+
 .grid-item-title {
-  font-size: 19px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-decoration: underline;
+  font-size: 29px;
+  font-weight: 600;
+  letter-spacing: -1;
 }
 
 .grid-item-desc {
@@ -118,4 +129,44 @@ body {
 }
 .social-item:hover {
   color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+.tags-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tags {
+  margin: 10px 0px;
+  padding: 10px 12px;
+  width: fit-content;
+  border-radius: 20px;
+  font-weight: 400;
+
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.level-tags {
+  color: #147eff;
+}
+
+.dream-tags {
+  color: #33d864;
+}
+
+.kado-tag {
+  color:  #e2223b;
+}
+
+.todo-tags {
+  color: #13e8b6;
+}
+
+.project-image {
+  width: 975px;
+  margin-top: 10px;
+  border-radius: 10px;
 }
