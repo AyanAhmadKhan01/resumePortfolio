@@ -123,6 +123,8 @@ body {
   color: #147eff;
 }
 
+
+
 .grid-item-title {
   font-size: 29px;
   font-weight: 600;
@@ -172,9 +174,26 @@ body {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
+.mess-tag {
+   float: right;
+  padding: 10px;
+  letter-spacing: -1px;
+  color: oklch(0.645 0.246 16.439);
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.mess-wrapper:hover {
+  border: 1px solid oklch(0.645 0.246 16.439);
+}
+
 .level-tags {
   color: #147eff;
 }
+
 
 .dream-wrapper:hover {
   border: 1px solid #33d864;
@@ -265,4 +284,103 @@ border: 1px solid #13e8b6;
   height: 32px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.badge-projects {
+  display: flex;
+  align-items: center;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 20px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.project-icon {
+  margin-right: 4px;
+}
+
+.badge-projects  span {
+  color: #147eff;;
+  margin-left: 4px;
+}
+
+
+.timeline-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  position: relative;
+}
+
+.timeline-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 60px;
+  padding-top: 0.5rem;
+    height: 80px;
+}
+
+.timeline-bar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #147eff, rgba(20, 126, 255, 0.05));
+  animation: growLine 2s ease-out forwards;
+  z-index: -1;
+}
+
+.timeline-dot {
+  width: 22px;
+  height: 22px;
+  background-color: #147eff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #147eff;
+  position: relative;
+}
+
+.timeline-dot::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: #147eff;
+  opacity: 0.4;
+  animation: pulseDot 2s infinite;
+  z-index: -1;
+}
+
+.timeline-text {
+  font-size: 18px;
+  letter-spacing: -1px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 20px;
+  text-align: center;
+}
+
+@keyframes growLine {
+  0% {
+    height: 0;
+    opacity: 0;
+  }
+  100% {
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes pulseDot {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
 }
