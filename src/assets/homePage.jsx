@@ -2,7 +2,7 @@
 
 import { Link } from "react-router"
 import { motion } from "framer-motion"
-import { Github, Linkedin, Twitter, CalendarDays } from "lucide-react"
+import { Github, Linkedin, Twitter, CalendarDays, MapPin } from "lucide-react"
 import { useState, useEffect } from "react"
 
 export default function HomePage() {
@@ -49,6 +49,8 @@ export default function HomePage() {
                 Hey there! I'm Ayan Ahmad Khan, a passionate <span>MERN stack</span> developer.
               </motion.p>
             )}
+
+            <h6 className={`location ${isSticky ? 'left-badge' : ''}`}><MapPin size={18}/> Bengaluru, India</h6>
 
             {isSticky && (
               <motion.div
