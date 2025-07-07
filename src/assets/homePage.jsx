@@ -85,8 +85,21 @@ export default function HomePage() {
 </h2>
           </motion.h3>
 
+
           <div className="grid-container">
             {[
+               {
+                href: "https://solar-system-three-js-eight.vercel.app",
+                tag: "Completed",
+                title: "Solar System 3D",
+                desc: "A visually interactive 3D simulation of the solar system built with Three.js. It features orbiting planets, dynamic controls, and an immersive space environment designed for educational and exploratory purposes.",
+                tags: ["#Three.js", "#Javascript" ,"#HTML", "#CSS"],
+                image: "https://res.cloudinary.com/dt5qoqw6u/image/upload/v1751898048/rzwmyoq0ainoazczpzqn.png",
+                wrapperClass: "solar-wrapper",
+                   timeline: 'July 2025',
+                tagClass: "solar-tag",
+
+              },
               {
                 href: "#",
                 tag: "Working On",
