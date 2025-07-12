@@ -38,6 +38,7 @@ body {
 }
 .profile-section-image {
   width: 75px;
+  scale: 1;
   border-radius: 50%;
 }
 .profile-title {

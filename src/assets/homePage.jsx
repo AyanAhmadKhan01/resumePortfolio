@@ -33,7 +33,7 @@ export default function HomePage() {
             transition={{ duration: 1.5, ease: "easeOut" }}
           >
             <img
-              src="https://avatars.githubusercontent.com/u/166162914?v=4"
+              src="https://dqy38fnwh4fqs.cloudfront.net/UHR86GLDMJPL8MGIR6MOOLOROQKL/hr86gldmjpl8mgir6mooloroqkl-4687-profile.webp"
               alt="Profile"
               className={`profile-section-image ${isSticky ? 'smallIcon' : ''}`}
             />
