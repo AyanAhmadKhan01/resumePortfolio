@@ -27,7 +27,7 @@ export default function HomePage() {
           />
 
           <motion.div
-            className={`profile-section-container ${isSticky ? 'sticky-nav' : ''}`}
+            className={`profile-section-container ${isSticky ? '' : ''}`}
             initial={{ opacity: 0, y: -60 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
