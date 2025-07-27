@@ -27,7 +27,7 @@ export default function HomePage() {
           />
 
           <motion.div
-            className={`profile-section-container ${isSticky ? 'sticky-nav' : ''}`}
+            className={`profile-section-container ${isSticky ? '' : ''}`}
             initial={{ opacity: 0, y: -60 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
@@ -89,6 +89,18 @@ export default function HomePage() {
           <div className="grid-container">
             {[
                {
+                href: "https://ayancodes.vercel.app",
+                tag: "Completed",
+                title: "ayan.codes",
+                desc: "A minimal and personal blog website focused on clean design, smooth reading experience, and thoughtful content presentation.",
+                tags: ["#Next.js", "#Tailwind", "#Next-Auth", "#ShadCn", "#Quill", "#react-hook-form", "#mongoose"],
+                image: "https://res.cloudinary.com/dt5qoqw6u/image/upload/v1753644735/c3keivnyaqd17kkjdpbw.png",
+                wrapperClass: "level-card-wrapper",
+                   timeline: 'July 2025',
+                tagClass: "dev-tag",
+
+              },
+               {
                 href: "https://solar-system-three-js-eight.vercel.app",
                 tag: "Completed",
                 title: "Solar System 3D",
@@ -144,7 +156,7 @@ export default function HomePage() {
                 image: "https://res.cloudinary.com/dt5qoqw6u/image/upload/v1748005446/c0wi8oz914fr16qduzhr.png",
                 wrapperClass: "kado-wrapper",
                    timeline: 'October 2024 - November 2024',
-                tagClass: "dreamwall"
+                tagClass: "kado-tag"
               },
               {
                 href: "https://todolist-brown-pi.vercel.app/",
@@ -155,7 +167,7 @@ export default function HomePage() {
                 image: "https://res.cloudinary.com/dt5qoqw6u/image/upload/v1748009620/nufv16guy3umtgbjr5ed.png",
                 wrapperClass: "todo-wrapper",
                    timeline: 'July 2024',
-                tagClass: "dreamwall"
+                tagClass: ""
               }
             ].map((proj, index) => (
               <motion.div
