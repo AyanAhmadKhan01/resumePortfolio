@@ -89,16 +89,26 @@ export default function HomePage() {
           <div className="grid-container">
             {[
                {
+                href: "https://flexreadme.vercel.app",
+                tag: "Completed",
+                title: "FlexReadme",
+                desc: "A GitHub README generator powered by AI that creates polished, context‑aware documentation in seconds.",
+                tags: ["#Typescript", "#Next.js", "#Tanstack Query", "#Tailwind", "#ShadCn", "#Zod", "#PostgreSQL", "#Redis", "AI"],
+                image: "https://res.cloudinary.com/dt5qoqw6u/image/upload/v1753826538/mfklkupr91xulljkdsc4.png",
+                wrapperClass: "flexreadme-wrapper",
+                   timeline: 'August 2025',
+                tagClass: "flexreadme-tag",
+              },
+               {
                 href: "https://ayancodes.vercel.app",
                 tag: "Completed",
                 title: "ayan.codes",
                 desc: "A minimal and personal blog website focused on clean design, smooth reading experience, and thoughtful content presentation.",
-                tags: ["#Next.js", "#Tailwind", "#Next-Auth", "#ShadCn", "#Quill", "#react-hook-form", "#mongoose"],
+                tags: ["#Next.js", "#Tailwind", "#Next-Auth", "#ShadCn", "#Quill", '#Tanstack Query', "#react-hook-form", "#mongoose"],
                 image: "https://res.cloudinary.com/dt5qoqw6u/image/upload/v1753644735/c3keivnyaqd17kkjdpbw.png",
                 wrapperClass: "level-card-wrapper",
                    timeline: 'July 2025',
                 tagClass: "dev-tag",
-
               },
                {
                 href: "https://solar-system-three-js-eight.vercel.app",
