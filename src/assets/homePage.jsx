@@ -50,7 +50,7 @@ export default function HomePage() {
               </motion.p>
             )}
 
-            <h6 className={`location ${isSticky ? 'left-badge' : ''}`}><MapPin size={18}/> Bengaluru, India</h6>
+            {/* <h6 className={`location ${isSticky ? 'left-badge' : ''}`}><MapPin size={18}/> </h6> */}
 
             {isSticky && (
               <motion.div
