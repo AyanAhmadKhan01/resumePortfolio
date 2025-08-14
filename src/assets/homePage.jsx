@@ -79,10 +79,7 @@ export default function HomePage() {
             viewport={{ once: true }}
             transition={{ duration: 1.3 }}
           >
-            Projects <h2 className="badge-projects">
-  <CalendarDays className="project-icon" size={18} />
-  2023 – <span> Present</span>
-</h2>
+            Projects 
           </motion.h3>
 
 
@@ -130,7 +127,7 @@ export default function HomePage() {
                 tags: ["#NextJs", "#Shadcn" ,"#TailWind", "#Express", "#Nodejs", "#MongoDB"],
                 image: "https://res.cloudinary.com/dt5qoqw6u/image/upload/v1751288371/nrdtax7jdqcvhwde0xiu.png",
                 wrapperClass: "mess-wrapper",
-                   timeline: 'June 2025 - Present ',
+                   timeline: 'February 2025 - July 2025',
                 tagClass: "mess-tag",
 
               },
@@ -143,7 +140,7 @@ export default function HomePage() {
                 image: "https://res.cloudinary.com/dt5qoqw6u/image/upload/v1748003658/aabeefcnbg3iphuce1fe.png",
                 wrapperClass: "level-card-wrapper",
                 tagClass: "dev-tag",
-                timeline: 'Feb 2025 - Present ',
+                timeline: 'February 2025 - Present ',
                 titleSpanClass: "lvl-span"
               },
               {
@@ -154,31 +151,9 @@ export default function HomePage() {
                 tags: ["#ReactJs", "#Css", "#Express", "#Nodejs", "#MongoDB"],
                 image: "https://res.cloudinary.com/dt5qoqw6u/image/upload/v1748005188/thceyarmn8dld2glwe7w.png",
                 wrapperClass: "dream-wrapper",
-                   timeline: 'November 2024 - January 2025',
+                   timeline: 'November 2024 - February 2025',
                 tagClass: "dreamwall"
               },
-              {
-                href: "https://kadogg.vercel.app/",
-                tag: "Completed",
-                title: "Kado.gg",
-                desc: "A guide website dedicated to Kado Bot, offering in-depth explanations of its Discord commands, rules, and card showcases.",
-                tags: ["#React", "#MongoDB", "#Express", "#Nodejs"],
-                image: "https://res.cloudinary.com/dt5qoqw6u/image/upload/v1748005446/c0wi8oz914fr16qduzhr.png",
-                wrapperClass: "kado-wrapper",
-                   timeline: 'October 2024 - November 2024',
-                tagClass: "kado-tag"
-              },
-              {
-                href: "https://todolist-brown-pi.vercel.app/",
-                tag: "Completed",
-                title: "To Do List",
-                desc: "Your Own Custom To-do-List, and you can customize it according to your preferences",
-                tags: ["#HTML", "#CSS", "#Javascript"],
-                image: "https://res.cloudinary.com/dt5qoqw6u/image/upload/v1748009620/nufv16guy3umtgbjr5ed.png",
-                wrapperClass: "todo-wrapper",
-                   timeline: 'July 2024',
-                tagClass: ""
-              }
             ].map((proj, index) => (
               <motion.div
                 key={index}
