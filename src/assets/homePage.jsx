@@ -16,6 +16,8 @@ export default function HomePage() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+
+
   return (
     <>
       <div className="pageDiv">
@@ -85,6 +87,17 @@ export default function HomePage() {
 
           <div className="grid-container">
             {[
+               {
+                href: "https://mvpfast.vercel.app/",
+                tag: "Completed",
+                title: "MvpFast",
+                desc: "Mvp Fast, Bangalore-based web development team building fast, modern, and scalable websites with React, Next.js, Node.js, and cloud deployment.",
+                tags: ["#Typescript", "#Next.js", "#Tailwind", "#ShadCn", "Motion"],
+                image: "https://res.cloudinary.com/dt5qoqw6u/image/upload/v1758325540/zhqadz7p8wunxoczo9mh.png",
+                wrapperClass: "mvpfast-tag-wrapper",
+                   timeline: '',
+                tagClass: "mvpfast-tag",
+              },
                {
                 href: "https://flexreadme.vercel.app",
                 tag: "Completed",
